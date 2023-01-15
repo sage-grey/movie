@@ -1,0 +1,38 @@
+
+body{
+
+background:rgba(10, 12, 49, 0.82);
+ position: relative;
+}
+h5{
+color:rgba(236, 82, 82, 0.82);
+}
+h4{
+color:rgba(236, 82, 82, 0.82);
+}
+h6{
+color:rgba(230, 160, 112, 1);
+}
+.dis{
+margin:px;
+}
+img{
+  border: solid 5px;
+  border-color:white;
+}
+
+.sz{
+width:210px;
+height:250px;
+
+}
+.addmovie{
+position:relative;
+left:0px;
+padding-right:30px;
+color:black;
+}
+
+
+}
+}

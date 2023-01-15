@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<table align="center"  >
+
+<form method="post" enctype="multipart/form-data">{% csrf_token %}<br>
+    <tr> <td><h4 align="center"><u>Add Movie</u></h4></td> </tr>
+    <tr> <td><input type="text" placeholder="movie name" name="name"  style="width:100%;"></td> </tr><br>
+    <tr> <td><textarea placeholder="movie description" name="des" class="textarea" style="width:100%;"></textarea></td> </tr><br>
+    <tr> <td><input type="text" placeholder="year" name="year" style="width:100%;"></td> </tr><br>
+    <tr> <td><input type="file"  name="img"  class="btn btn-light"></td> </tr><br><br>
+
+    <tr> <td> <input type="submit" class="btn btn-warning" ></td> </tr>
+
+
+</form>
+
+</table>
+
+{% endblock %}
